@@ -1,0 +1,76 @@
+:root {
+    --burnt-orange: #733005;
+}
+
+body {
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+main.container {
+    padding: 0 30px;
+}
+
+.prep-time {
+    background-color: rgba(147, 112, 219, 0.13);
+    padding: .5rem 1rem;
+    border-radius: 7px;
+}
+
+.prep-time h2 {
+    color: purple;
+}
+
+h2 {
+    color: var(--burnt-orange);
+}
+
+.nutrition table {
+    border: 1px solid black;
+    width: 100%;
+}
+
+.nutrition div {
+    border-bottom: 1px solid black;
+}
+
+.nutrition dl {
+    width: 100%;
+}
+
+.nutrition dt {
+    font-weight: unset;
+    /*padding-right: 20px;*/
+    text-align: left;
+    /*padding-left: 2rem;*/
+    display: inline-block;
+    width: 40px;
+    padding-left: 1rem;
+}
+
+.nutrition dd {
+    color: var(--burnt-orange);
+    font-weight: bold;
+    /*padding-left: 2rem;*/
+    display: inline-block;
+    width: 40%;
+}
+
+@media (min-width: 500px) {
+    body {
+        width: calc(100% - 60px);
+        padding: 30px;
+    }
+    main.container {
+        padding: 0;
+    }
+    img {
+
+        border-radius: 10px;
+    }
+}
